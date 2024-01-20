@@ -32,4 +32,5 @@ class Program
     static void DisplayResult (string userName, int squaredNum){
         Console.WriteLine($"{userName}, the square of your number is {squaredNum}");
     }
+    
 }
