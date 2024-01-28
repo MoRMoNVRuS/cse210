@@ -35,10 +35,10 @@ namespace JournalApp
                             DisplayJournal();
                             break;
                         case 3:
-                            SaveJournalToFile();
+                            SaveJournal();
                             break;
                         case 4:
-                            LoadJournalFromFile();
+                            LoadJournal();
                             break;
                         case 5:
                             Console.WriteLine("Exiting journal...");
@@ -97,7 +97,7 @@ namespace JournalApp
             }
         }
 
-        static void SaveJournalToFile()
+        static void SaveJournal()
         {
             Console.Write("Enter the you wan to name your journal file: ");
             string filename = Console.ReadLine();
@@ -113,7 +113,7 @@ namespace JournalApp
         }
 
     //Loading Journal file
-        static void LoadJournalFromFile()
+        static void LoadJournal()
         {
             Console.Write("Enter the filename to load the journal: ");
             string filename = Console.ReadLine();
